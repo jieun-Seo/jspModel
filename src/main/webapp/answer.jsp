@@ -62,7 +62,7 @@ MemberDto login = (MemberDto)session.getAttribute("login");
 <table border="1">
 <col width="200"><col width="500">
 <tr>
-	<th>아이디</th>
+	<th>작성아이디</th>
 	<td>
 		<input type="text" name="id" size="50" readonly="readonly" value="<%=login.getId() %>">
 	</td>
